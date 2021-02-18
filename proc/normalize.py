@@ -5,7 +5,7 @@ import textwrap
 
 from articlemeta.client import RestfulClient
 from datetime import datetime
-from model.standardizer import Standardizer
+from model.old_standardizer import JournalStandardizer
 from time import time
 
 
@@ -112,7 +112,7 @@ def main():
 
     try:
 
-        sz = Standardizer(
+        sz = JournalStandardizer(
             path_db=args.db,
             use_exact=args.use_exact,
             use_fuzzy=args.use_fuzzy,

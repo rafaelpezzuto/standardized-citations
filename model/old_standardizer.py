@@ -37,7 +37,7 @@ VOLUME_IS_INFERRED = 1
 VOLUME_NOT_USED = -1
 
 
-class Standardizer:
+class JournalStandardizer:
 
     logging.basicConfig(level=logging.INFO)
 
