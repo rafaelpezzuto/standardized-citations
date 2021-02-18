@@ -1,6 +1,5 @@
 import html
 import re
-import roman
 
 from utils.string_processor import remove_double_spaces, alpha_num_space, remove_accents, remove_invalid_chars
 
